@@ -9,3 +9,10 @@ for(let i=0;i<arr.length;i++){
 }
 
 console.log("Sum is: " + sum);
+
+//product
+let product=1;
+for(let i=0;i<arr.length;i++){
+    product*=arr[i];
+}
+console.log("Product is: " + product);
